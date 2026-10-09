@@ -125,3 +125,6 @@ textarea{min-height:160px;resize:vertical}
 .site-footer a:hover{text-decoration:underline}
 .site-footer nav ul{list-style:none;display:flex;flex-wrap:wrap;gap:18px;margin:0;padding:0}
 .site-footer .copy{width:100%;border-top:1px solid #4a3c36;padding-top:18px;margin-top:6px;color:#a8998d;font-size:.85rem}
+/* "Coming soon" badge shown in place of buy buttons until the new edition is live (not a link) */
+.btn-soon{background:#f3ece0;color:var(--wine);border:2px dashed var(--wine);cursor:default;user-select:none}
+.btn-soon::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--sage)}
