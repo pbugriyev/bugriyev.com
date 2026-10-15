@@ -138,3 +138,10 @@ textarea{min-height:160px;resize:vertical}
 /* "Coming soon" badge shown in place of buy buttons until the new edition is live (not a link) */
 .btn-soon{background:#f3ece0;color:var(--wine);border:2px dashed var(--wine);cursor:default;user-select:none}
 .btn-soon::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--sage)}
+/* Card icons: circle badges. Variant A = .icons-a (thin wine ring), B = .icons-b (solid wine disc) */
+.card-icon{display:block;width:60px;height:60px;margin:0 0 16px}
+.card-icon .ci-glyph{fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.icons-a .ci-disc{fill:var(--paper);stroke:var(--wine);stroke-width:1.25}
+.icons-a .ci-glyph{stroke:var(--wine)}
+.icons-b .ci-disc{fill:var(--wine);stroke:none}
+.icons-b .ci-glyph{stroke:var(--cream)}
