@@ -149,4 +149,4 @@ textarea{min-height:160px;resize:vertical}
 .wh-alt{font-size:.9rem;color:var(--muted)}
 .wh-embed{display:flex;justify-content:center}
 .wh-embed iframe{display:block;width:100%;max-width:440px;height:320px;border:0;background:#fff}
-@media (max-width:820px){.wh-grid{grid-template-columns:1fr;padding:28px 22px;gap:8px}.wh-embed iframe{max-width:100%}}
+@media (max-width:820px){.wh-grid{grid-template-columns:1fr;padding:28px 22px;gap:8px}.wh-embed iframe{max-width:100%;margin:-36px 0 -24px}}
